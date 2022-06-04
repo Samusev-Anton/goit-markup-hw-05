@@ -77,7 +77,11 @@
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button class="close-modal" data-modal-close>X</button>
+              <button class="close-modal" data-modal-close>
+                <svg class="close-icon">
+                  <use href="./img/close.svg#icon-close"></use>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -478,19 +482,6 @@
         </div>
       </div>
     </footer>
-    <script>
-      (() => {
-        const refs = {
-          openModalBtn: document.querySelector("[data-modal-open]"),
-          closeModalBtn: document.querySelector("[data-modal-close]"),
-          modal: document.querySelector("[data-modal]"),
-        };
-        refs.openModalBtn.addEventListener("click", toggleModal);
-        refs.closeModalBtn.addEventListener("click", toggleModal);
-        function toggleModal() {
-          refs.modal.classList.toggle("is-hidden");
-        }
-      })();
-    </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
