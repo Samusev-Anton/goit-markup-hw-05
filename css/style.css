@@ -90,6 +90,9 @@ ul {
   display: flex;
   align-items: center;
   background: var(--white);
+  position: fixed;
+  left: 20.5%;
+  z-index: 10;
 }
 
 .logo {
