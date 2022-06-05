@@ -84,10 +84,6 @@ ul {
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: #ececec;
-  position: fixed;
-  left: 20.5%;
-  z-index: 10;
-  top: 0;
 }
 
 .headline {
