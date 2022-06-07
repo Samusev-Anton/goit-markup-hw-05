@@ -191,12 +191,12 @@ ul {
 }
 
 .contacts-link-pages {
-  transition: color;
+  transition: color var(--time-transition) var(--cubik);
 }
 
 .contacts-link-pages:hover,
 .contacts-link-pages:focus {
-  color: var(--accent-color) var(--time-transition) var(--cubik);
+  color: var(--accent-color);
 }
 
 .contacts-link-pages:hover .contacts-link-icon,
