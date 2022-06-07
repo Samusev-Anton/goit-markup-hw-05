@@ -191,7 +191,7 @@ ul {
 }
 
 .contacts-link-pages {
-  transition: color var(--time-transition) var(--cubik);
+  transition: color 250ms var(--cubik);
 }
 
 .contacts-link-pages:hover,
