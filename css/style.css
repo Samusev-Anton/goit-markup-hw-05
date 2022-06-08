@@ -775,6 +775,7 @@ ul {
   display: block;
   box-shadow: none;
   transition: box-shadow 500ms var(--cubik);
+  outline: transparent;
 }
 
 .cards-link:hover,
